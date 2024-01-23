@@ -172,6 +172,14 @@
     line-height: 150%;
 }
 
+.footer__p {
+    text-align: center;
+    color: #495057;
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
