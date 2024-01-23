@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body-container">
+    <header>
+        <img src="assets/logo.svg" alt="Logo alura letra (a)" class="header__img">
+    </header>
+
+    <div class="container">
+        <main class="main-container">
+            <input class="input__cripto" type="text" placeholder="Digite seu texto" id="input__cripto">
+            </input>
+
+            <span class="main__span"><img src="assets/i.svg" alt="Icone da letra i">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </span>
+            <span class="btns__container">
+                <button class="btn__criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="btn__descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </span>
+        </main>
+
+        <section class="side-section">
+            <div id="output-area-vazio">
+                <img style="width: 100%;" src="assets/boneco.svg" alt="imagem do boneco procurando tesouro">
+                <h4 class="side-section__h4">Nenhuma mensagem encontrada</h4>
+                <p class="side-section__p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div id="output-area">
+                <span id="output-area-span"><p></p></span>
+                <button class="btn__copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
