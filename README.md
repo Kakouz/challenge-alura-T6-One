@@ -1,6 +1,6 @@
 # ALURA CHALLENGE 1
 
-### Sprint 01: Construa um decodificador de texto com Javascript
+## Sprint 01: Construa um decodificador de texto com Javascript
 
 O desafio foi para criar uma landing page em que o usuário terá uma área para digitar dados com botões para criptografar e descriptografar os dados.
 
